@@ -1,0 +1,11 @@
+server:
+  port: 8447
+security:
+  oauth2:
+    client:
+      scope: openid
+      clientId: NTdkOTdlMTktMmExNS00
+      clientSecret: ODliNTEzNDAtNDhiYS00
+      accessTokenUri: https://w3id.alpha.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/token
+      userAuthorizationUri: https://w3id.alpha.sso.ibm.com/isam/oidc/endpoint/amapp-runtime-oidcidp/authorize
+      clientAuthenticationScheme: form    
